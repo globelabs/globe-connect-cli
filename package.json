@@ -1,0 +1,25 @@
+{
+  "name": "globe-connect-cli",
+  "version": "0.0.0",
+  "description": "Globe Connect API Command Line Tool",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "globelabs",
+    "api",
+    "sms",
+    "globe"
+  ],
+  "author": "Charles Zamora <czamora@openovate.com>",
+  "license": "MIT",
+  "bin": {
+    "globe-cli": "./bin/globe-connect.js"
+  },
+  "dependencies": {
+    "cli-color": "^1.1.0",
+    "node-libcurl": "^1.0.0",
+    "yargs": "^6.4.0"
+  }
+}
