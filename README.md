@@ -29,7 +29,7 @@ globe-connect location -a "[+63 subscriber_number]" -c [accuracy] -t "[access_to
 ###### Figure 4. Payment (Send Payment Request)
 
 ```sh
-globe-connect payment -a "[amount]" -d "[description]" -e "[+63 subscriber_number]" -r 41301000206 -s Charged -t "[access_token]" --verbose
+globe-connect payment -a "[amount]" -d "[description]" -e "[+63 subscriber_number]" -r "[reference]" -s "[status]" -t "[access_token]" --verbose
 ```
 
 ###### Figure 5. Payment (Get Last Reference ID)
