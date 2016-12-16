@@ -65,5 +65,5 @@ globe-connect ussd-send -m "[message]" -a "[+63 subscriber_number]" -s "[short_c
 ###### Figure 10. USSD (Reply)
 
 ```sh
-globe-connect ussd-send -m "message" -a ""[+63 subscriber_number]"" -s "[short_code]" -f false -t "[access_token]" -i "[session_id]"
+globe-connect ussd-send -m "message" -a "[+63 subscriber_number]" -s "[short_code]" -f false -t "[access_token]" -i "[session_id]"
 ```
