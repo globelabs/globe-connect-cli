@@ -315,9 +315,9 @@ globe-connect subscr-bal -a [subscriber_number] -t "[access_token]" --verbose
 
 ```json
 {
-    terminalLocationList:
+    "terminalLocationList":
     {
-        terminalLocation:
+        "terminalLocation":
         [
             {
                 address: "639171234567",
@@ -342,9 +342,9 @@ globe-connect subscr-reload-amt -a [subscriber_number] -t "[access_token]" --ver
 
 ```json
 {
-    terminalLocationList:
+    "terminalLocationList":
     {
-        terminalLocation:
+        "terminalLocation":
         [
             {
                 address: "639171234567",
